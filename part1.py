@@ -58,8 +58,8 @@ def main():
         if is_monotonic(condition):
             monotonic_conditions.append(condition)
 
-    print("Number of monotonic conditions: ", len(monotonic_conditions))
-    print("The monotonic conditions:")
+    print("Number of monotonic regulation conditions: ", len(monotonic_conditions))
+    print("The monotonic regulation conditions:")
     for m in monotonic_conditions:
         print(m)
 
